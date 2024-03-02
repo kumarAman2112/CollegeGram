@@ -1,0 +1,102 @@
+.rightbar{
+    flex: 3.5;
+}
+.rightbarwrapper{
+    padding: 10px 10px 0px 0px;
+}
+.birthdayImg{
+    width: 50px;
+    height: 50px;
+    margin-right:10px ;
+
+}
+.birthdaycontainer{
+    display: flex;
+    align-items:center;
+    
+}
+.birthdayText{
+    font-weight: 400;
+    font-size: 14px;
+}
+.rightbarad{
+    width:100%;
+    margin: 30px 0px;
+    border-radius: 10px;
+}
+.onlinefriendslist{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.onlinefriend{
+display: flex;
+align-items: center;
+margin-bottom: 15px;
+}
+.onlinefriendimgcontainer{
+    margin-right: 10px;
+    position: relative;
+}
+.onlinefriendimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.onlinebatch{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: -2px;
+background-color:limegreen;
+border: 2px solid white;
+}
+.rightbartitle{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight:bold;
+}
+.onlinefriendusername{
+    font-size: 15px;
+    font-weight: 500;
+}
+.rightbarTitle{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight:bold;
+}
+.rightbarfollowingimg{
+    width: 100px;
+    height: 100px;
+  
+    object-fit: cover;
+
+}
+.rightbarinfo{
+    margin-bottom: 30px;
+}
+.rightbarinfoitem{
+    margin-bottom: 10px;
+}
+.rightbarinfokey{
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.rightbarinfovalue{
+    font-weight: 300;
+    font-size: 14px;
+}
+.rightbarfollowings{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.rightbarfollowing{
+    display: flex;
+    flex-direction: column;
+margin-bottom: 10px;
+}

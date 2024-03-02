@@ -1,0 +1,71 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: rgb(227, 232, 233);
+}
+.loginwrapper{
+    width: 70%;
+  height: 70%;
+    display: flex;
+
+}
+.loginleft,.loginright{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.loginlogo{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: rgb(26, 98, 192);
+}
+.logindesc{
+    font-size: 24px;
+   
+}
+.loginbox{
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(178, 184, 187);
+    display: flex;
+    flex-direction: column;
+  justify-content:space-around;
+   
+}
+.loginInput{
+ height:40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+.loginbutton{
+    height: 7vh;
+    background-color:rgb(23, 121, 167);
+    border: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.forgot{
+font-size: 14px;
+text-align: center;
+
+}
+.newaccount{
+    color: rgb(5, 124, 55);
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+}
